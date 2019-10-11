@@ -43,11 +43,59 @@ convertToString(21); // "21"
  * @return {number}
  */
 
+//Function Decleration
+    function add(n) {
+    return(n+1);
+    }
+
+// Function Expression
+    let add = function(n) {
+    return (n+1);
+    }
+
+// Arrow Function
+    let add = n =>(n+1);
+
+// Arrow Function With Curly Bracket
+
+    let add = n => {
+    return (n+1);
+    };
+
+// Function Invocation
+
+    add(7); // "8"
+
+
+
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
+
+//Function Decleration
+    function sub(n) {
+    return(n-1);
+    }
+
+// Function Expression
+    let sub = function(n) {
+    return (n-1);
+    }
+
+// Arrow Function
+    let sub = n =>(n-1);
+
+// Arrow Function With Curly Bracket
+
+    let sub = n => {
+    return (n-1);
+    };
+
+// Function Invocation
+
+    add(7); // "6"
 
 /**
  * Adds two numbers.
@@ -56,12 +104,58 @@ convertToString(21); // "21"
  * @return {number} the sum
  */
 
+//Function Decleration
+    function add(x,y) {
+    return(x+y);
+    }
+
+// Function Expression
+    let add = function(x,y) {
+    return (x+y);
+    }
+
+// Arrow Function
+    let add = (x,y) =>(x+y);
+
+// Arrow Function With Curly Bracket
+
+    let add = (x,y) => {
+    return (x+y);
+    };
+
+// Function Invocation
+
+    add(7,8); // "15"
+
 /**
  * Subtracts the second number from the first.
  * @param {number} x
  * @param {number} y
  * @return {number} the difference
  */
+
+//Function Decleration
+    function sub(x,y) {
+    return(x-y);
+    }
+
+// Function Expression
+    let sub = function(x,y) {
+    return (x-y);
+    }
+
+// Arrow Function
+    let sub = (x,y) =>(x-y);
+
+// Arrow Function With Curly Bracket
+
+    let sub = (x,y) => {
+    return (x-y);
+    };
+
+// Function Invocation
+
+    add(10,5); // "5"
 
 /**
  * Multiplies two numbers.
@@ -70,6 +164,29 @@ convertToString(21); // "21"
  * @return {number} the product
  */
 
+//Function Decleration
+    function mul(x,y) {
+    return(x*y);
+    }
+
+// Function Expression
+    let mul = function(x,y) {
+    return (x*y);
+    }
+
+// Arrow Function
+    let mul = (x,y) =>(x*y);
+
+// Arrow Function With Curly Bracket
+
+    let mul = (x,y) => {
+    return (x*y);
+    };
+
+// Function Invocation
+
+    add(2,3); // "6"
+
 /**
  * Divides the first number by the second.
  * @param {number} x
@@ -77,12 +194,58 @@ convertToString(21); // "21"
  * @return {number} the quotient
  */
 
+//Function Decleration
+    function div(x,y) {
+    return(x/y);
+    }
+
+// Function Expression
+    let div = function(x,y) {
+    return (x/y);
+    }
+
+// Arrow Function
+    let div = (x,y) =>(x/y);
+
+// Arrow Function With Curly Bracket
+
+    let div = (x,y) => {
+    return (x/y);
+    };
+
+// Function Invocation
+
+    add(10,2); // "5"
+
+
 /**
  * Multiplies a number by itself.
  * @param {number} x, number to be squared
  * @return {number} squared
  */
 
+//Function Decleration
+    function mul(n) {
+    return(n**2);
+    }
+
+// Function Expression
+    let mul = function(n) {
+    return (n**2);
+    }
+
+// Arrow Function
+    let mul = (n) =>(n**2);
+
+// Arrow Function With Curly Bracket
+
+    let mul = (n) => {
+    return (n**2);
+    };
+
+// Function Invocation
+
+    mul(2); // "4"
 /**
  * Performs a mathematical operation on two numbers.
  * Also prints out the equation: (i.e.) "1 + 5 = 6" or "8 / 2 = 4".
